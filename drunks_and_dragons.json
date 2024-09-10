@@ -14,7 +14,20 @@
         "setup": false,
         "ability": "You start knowing that 1 of 2 players is a particular Townsfolk."
     },
-    { "id": "knight"},
+    {
+        "id": "c_knight",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/knight.png?raw=true",
+        "name": "Knight",
+        "team": "townsfolk",
+        "firstNight": 34,
+        "firstNightReminder": "Point to two players, both of which are not the Demon.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Not the Demon",
+            "Not the Demon"],
+        "setup": false,
+        "ability": "You start knowing 2 players that are not the demon."
+    },
     {
         "id": "c_sailor",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/sailor.png?raw=true",
