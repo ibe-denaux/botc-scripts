@@ -1,7 +1,7 @@
 [
     { "id": "_meta", "name": "Drunks & Dragons" },
     {
-        "id": "washerwoman",
+        "id": "c_washerwoman",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/washerwoman.png?raw=true",
         "name": "Washerwoman",
         "edition": "tb",
