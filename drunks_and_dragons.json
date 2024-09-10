@@ -1,4 +1,14 @@
 [
     { "id": "_meta", "name": "Drunks & Dragons" },
-    
+    { "id": "washerwoman" },
+    { "id": "knight"},
+    { "id": "sailor"},
+    { "id": "towncrier" },
+    { "id": "slayer"},
+    { "id": "minstrel"},
+    { "id": "fool" },
+    { "id": "drunk"},
+    { "id": "devilsadvocate"},
+    { "id": "witch"},
+    { "id": "vigormortis"},
 ]
