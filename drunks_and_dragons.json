@@ -2,8 +2,7 @@
     { "id": "_meta", "name": "Drunks & Dragons" },
     {
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/washerwoman.png?raw=true",
-        "name": "Washerwoman",
-        "edition": "tb",
+        "name": "asherwoman",
         "team": "townsfolk",
         "firstNight": 33,
         "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",
