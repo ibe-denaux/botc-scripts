@@ -1,8 +1,9 @@
 [
     { "id": "_meta", "name": "Drunks & Dragons" },
     {
+        "id": "c_washerwoman",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/washerwoman.png?raw=true",
-        "name": "asherwoman",
+        "name": "Washerwoman",
         "team": "townsfolk",
         "firstNight": 33,
         "firstNightReminder": "Show the character token of a Townsfolk in play. Point to two players, one of which is that character.",
@@ -15,7 +16,7 @@
     },
     { "id": "knight"},
     {
-        "id": "sailor",
+        "id": "c_sailor",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/sailor.png?raw=true",
         "name": "Sailor",
         "edition": "bmr",
@@ -43,7 +44,7 @@
         "ability": "Each night, choose a living player. If they are dead by dusk, you learn their character."
     },
     {
-        "id": "towncrier",
+        "id": "c_towncrier",
         "name": "Town Crier",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/towncrier.png?raw=true",
         "edition": "snv",
@@ -58,7 +59,7 @@
         "ability": "Each night*, you learn if a Minion nominated today."
     },
     {
-        "id": "slayer",
+        "id": "c_slayer",
         "name": "Slayer",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/slayer.png?raw=true",
         "edition": "tb",
@@ -72,7 +73,7 @@
         "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
     },
     {
-        "id": "minstrel",
+        "id": "c_minstrel",
         "name": "Minstrel",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/minstrel.png?raw=true",
         "edition": "bmr",
@@ -86,7 +87,7 @@
         "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow."
     },
     {
-        "id": "fool",
+        "id": "c_fool",
         "name": "Fool",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/fool.png?raw=true",
         "edition": "bmr",
@@ -100,7 +101,7 @@
         "ability": "The first time you die, you don't."
     },
     {
-        "id": "drunk",
+        "id": "c_drunk",
         "name": "Drunk",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/drunk.png?raw=true",
         "edition": "tb",
@@ -115,7 +116,7 @@
         "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
     },
     {
-        "id": "devilsadvocate",
+        "id": "c_devilsadvocate",
         "name": "Devil's Advocate",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/devilsadvocate.png?raw=true",
         "edition": "bmr",
@@ -129,7 +130,7 @@
         "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die."
     },
     {
-        "id": "witch",
+        "id": "c_witch",
         "name": "Witch",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/witch.png?raw=true",
         "edition": "snv",
@@ -143,7 +144,7 @@
         "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
     },
     {
-        "id": "vigormortis",
+        "id": "c_vigormortis",
         "name": "Vigormortis",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/vigormortis.png?raw=true",
         "edition": "snv",
