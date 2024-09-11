@@ -171,7 +171,7 @@
     {
         "id": "executioner",
         "name": "Executioner",
-        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/executioner.png?raw=true"
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/executioner.png?raw=true",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
