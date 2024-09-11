@@ -44,17 +44,45 @@
     },
     {
         "id": "prophet",
+        "name": "Prophet",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/prophet.png?raw=true",
         "firstNight": 40,
         "firstNightReminder": "The Prophet points to a player. Mark that player as being prophesied.",
-        "otherNight": 49,
+        "otherNight": 40,
         "otherNightReminder": "If the prophesied player has died, show their character to the Prophet. The Prophet chooses a new player to prophesy.",
         "reminders": ["Prophesied"],
         "remindersGlobal": [],
         "setup": false,
-        "name": "Prophet",
         "team": "townsfolk",
         "ability": "Each night, choose a living player. If they are dead by dusk, you learn their character."
+    },
+    {
+        "id": "wizard",
+        "name": "Wizard",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/wizard.png?raw=true",
+        "firstNight": 41,
+        "firstNightReminder": "Show a not-in-play character to the wizard.",
+        "otherNight": 41,
+        "otherNightReminder": "If the wizard was mad about being a previously shown character, treat them as being said character. Show a not-in-play character to the wizard.",
+        "reminders": ["Is mad", "Is not mad"],
+        "remindersGlobal": [],
+        "setup": false,
+        "team": "townsfolk",
+        "ability": "Each night, you learn a not-in-play character. Tomorrow, if you are mad about being them, you gain their ability until following dawn."
+    },
+    {
+        "id": "familiar",
+        "name": "Familiar",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/familiar.png?raw=true",
+        "firstNight": 42,
+        "firstNightReminder": "The familiar chooses a character. If not in play, change their token with the chosen character. Choose whether or not they change alignment. Wake the wizard separately and point to the familiar.",
+        "otherNight": 42,
+        "otherNightReminder": "The familiar chooses a character. If not in play, change their token with the chosen character. Choose whether or not they change alignment.",
+        "reminders": ["Is evil", "Is good"],
+        "remindersGlobal": [],
+        "setup": true,
+        "team": "townsfolk",
+        "ability": "Each night, choose a character: if not in play, you become them and might change alignment. The wizard knows who you are. [+Wizard]"
     },
     {
         "id": "c_towncrier",
@@ -72,6 +100,20 @@
         "ability": "Each night*, you learn if a Minion nominated today."
     },
     {
+        "id": "duelist",
+        "name": "Duelist",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/duelist.png?raw=true",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 5,
+        "otherNightReminder": "The duelist may point to a player other than themselves. Choose whether the Duelist, the chosen player or both die.",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": false,
+        "team": "townsfolk",
+        "ability": "Each night*, you may choose a player (other than yourself): you, them or both might die."
+    },
+    {
         "id": "c_slayer",
         "name": "Slayer",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/slayer.png?raw=true",
@@ -84,6 +126,19 @@
         "reminders": ["No ability"],
         "setup": false,
         "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
+    },
+    {
+        "id": "lord",
+        "name": "Lord",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/lord.png?raw=true",
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "When executed, you won't die if at least one neighbor can vote."
     },
     {
         "id": "c_minstrel",
@@ -112,6 +167,19 @@
         "reminders": ["No ability"],
         "setup": false,
         "ability": "The first time you die, you don't."
+    },
+    {
+        "id": "executioner",
+        "name": "Executioner",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/executioner.png?raw=true"
+        "team": "townsfolk",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Can't die"],
+        "setup": false,
+        "ability": "If someone was executed today, you can't die until dawn."
     },
     {
         "id": "c_drunk",
