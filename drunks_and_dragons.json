@@ -268,7 +268,7 @@
     {
         "id": "grim",
         "name": "Grim",
-        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/grim.png?raw=true"
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/grim.png?raw=true",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
