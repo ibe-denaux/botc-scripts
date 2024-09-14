@@ -182,6 +182,47 @@
         "ability": "If someone was executed today, you can't die until dawn."
     },
     {
+        "id": "necromancer",
+        "name": "Necromancer",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/necromancer.png?raw=true",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 6,
+        "otherNightReminder": "You may choose a player to resurrect. Put a drunk token next to them.",
+        "reminders": ["Drunk", "Drunk", "Drunk"],
+        "setup": false,
+        "ability": "Each night*, a dead player might be resurrected, but is drunk for the rest of the game."
+    },
+    {
+        "id": "blackguard",
+        "name": "Blackguard",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/blackguard.png?raw=true",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": true,
+        "ability": "When good wins, Outsiders win instead. [+1 Outsider]"
+    },
+    {
+        "id": "harlot",
+        "name": "Harlot",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/harlot.png?raw=true",
+        "team": "outsider",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["No ability"],
+        "remindersGlobal": [],
+        "setup": false,
+        "ability": "The first player to nominate you dies if they are not the demon."
+    },
+    {
         "id": "c_drunk",
         "name": "Drunk",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/drunk.png?raw=true",
@@ -225,6 +266,32 @@
         "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
     },
     {
+        "id": "grim",
+        "name": "Grim",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/grim.png?raw=true"
+        "team": "minion",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 29,
+        "otherNightReminder": "The Grim points to a player. That player dies. If the previously killed player does not have their vote token, they are resurrected.",
+        "reminders": ["Dead"],
+        "setup": false,
+        "ability": "Each night*, choose a player: they die. If they do not have their vote token by dusk, they are resurrected."
+    },
+    {
+        "id": "leper",
+        "name": "Leper",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/leper.png?raw=true"
+        "team": "minion",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 25,
+        "otherNightReminder": "If the leper nominated a player, put the infected token next to that player's character.",
+        "reminders": ["Infected", "Infected", "Infected"],
+        "setup": false,
+        "ability": "You die when nominating. During the night, the player you nominated gains your ability."
+    },
+    {
         "id": "c_vigormortis",
         "name": "Vigormortis",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/vigormortis.png?raw=true",
@@ -232,12 +299,39 @@
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 32,
+        "otherNight": 26,
         "otherNightReminder": "The Vigormortis points to a player. That player dies. If a Minion, they keep their ability and one of their Townsfolk neighbours is poisoned.",
         "reminders": ["Dead",
             "Has ability",
             "Poisoned"],
         "setup": true,
         "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbour. [\u22121 Outsider]"
-    }
+    },
+    {
+        "id": "dragon",
+        "name": "Dragon",
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/dragon.png?raw=true"
+        "team": "demon",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 27,
+        "otherNightReminder": "Point to all living tributes. The Dragon points to a living tribute. That player dies. If there are no living tributes, the dragon points to 2 players. They die.",
+        "reminders": ["Tributed", "Tributed", "Tributed"],
+        "setup": false,
+        "ability": "Each night*, choose a living tribute (if none, choose 2 players): they die. Players can self-tribute publicly but are poisoned if good."
+    },
+    {
+    "id": "c_shabaloth",
+    "name": "Shabaloth",
+    "edition": "bmr",
+    "team": "demon",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 28,
+    "otherNightReminder": "One player that the Shabaloth chose the previous night might be resurrected. The Shabaloth points to two players. Those players die.",
+    "reminders": ["Dead",
+        "Alive"],
+    "setup": false,
+    "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated."
+  }
 ]
