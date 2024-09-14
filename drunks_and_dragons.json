@@ -209,7 +209,7 @@
         "ability": "When good wins, Outsiders win instead. [+1 Outsider]"
     },
     {
-        "id": "harlot",
+        "id": "c_harlot",
         "name": "Harlot",
         "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/harlot.png?raw=true",
         "team": "outsider",
