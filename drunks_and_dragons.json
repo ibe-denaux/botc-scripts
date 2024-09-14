@@ -281,7 +281,7 @@
     {
         "id": "leper",
         "name": "Leper",
-        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/leper.png?raw=true"
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/leper.png?raw=true",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -310,7 +310,7 @@
     {
         "id": "dragon",
         "name": "Dragon",
-        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/dragon.png?raw=true"
+        "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/dragon.png?raw=true",
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
@@ -323,7 +323,7 @@
     {
     "id": "c_shabaloth",
     "name": "Shabaloth",
-    "edition": "bmr",
+    "image": "https://github.com/ibe-denaux/botc-scripts/blob/main/icons/shabaloth.png?raw=true",
     "team": "demon",
     "firstNight": 0,
     "firstNightReminder": "",
