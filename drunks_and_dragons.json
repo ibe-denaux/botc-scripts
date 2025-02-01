@@ -201,7 +201,7 @@
         "reminders": [],
         "remindersGlobal": [],
         "setup": true,
-        "ability": "When good wins, Outsiders win instead. [+1 Outsider]"
+        "ability": "When good wins, Outsiders win instead. You can only win when alive. [+1 Outsider]"
     },
     {
         "id": "c_harlot",
@@ -281,7 +281,7 @@
         "otherNightReminder": "If the leper nominated a player, put the infected token next to that player's character.",
         "reminders": ["Infected", "Infected", "Infected"],
         "setup": false,
-        "ability": "You die when nominating. During the night, the player you nominated gains your ability."
+        "ability": "You might die when nominating. During the night, the player you nominated gains your ability."
     },
     {
         "id": "c_vigormortis",
@@ -309,7 +309,7 @@
         "otherNightReminder": "Point to all living tributes. The Dragon points to a living tribute. That player dies. If there are no living tributes, the dragon points to 2 players. They die.",
         "reminders": ["Tributed", "Tributed", "Tributed"],
         "setup": false,
-        "ability": "Each night*, choose a living tribute (if none, choose 2 players): they die. Players can self-tribute publicly but are poisoned if good."
+        "ability": "Each night*, choose a living tribute (if none, choose 2 players): they die. Good players can self-tribute publicly but are poisoned."
     },
     {
     "id": "c_shabaloth",
